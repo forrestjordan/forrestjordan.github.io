@@ -1,41 +1,46 @@
-File name: find_errors.html
-25 Errors:
-    1. Line 1: Missing DOCTYPE declaration. Add `<!DOCTYPE html>` at the top.
-    2. Line 2: <head> tag should come after <html lang="en">
-    3. Line 4: Incorrect Syntax. Should be "lang", instead of "language"
-    4. Line 9: <h1> tag is not closed properly. Should have </h1>
-    5. Line 11: There is no opening to </p>. There should be a <p> befor "This is a paragraph."
-    6. Line 19: The opening for list should be <li>, and not be a closing </li>
-    7. Line 24: The closing tag for <ol> on line 13 should be </ol>, not </ul>
-    8. Line 26: There needs to be a closing tag for <p>. </p> after "This is another paragraph."
-    9. Line 28: Wrong image file name. Should be "image.jpg", not "Image.png"
-    10. Line 30: <a> tag is not closed with </a>
-    11.Line 39: <td> tag should be closed with </td>
-    12.Line 45: <table> tag is not closed. There shoudld be a </table> on line 45
-    13.Line 46: source should be src.
-    14.Line 48: There are no tags for the paragraph to make it a strikethrough text. There needs to be a <s></s> before and after the content.
-    15.Line 50: The "lightgray" needs to be replaced with css #############
-    16.Line 54: The comment is not closed, making the rest of the following conetent to turn into a comment. add -->
-    17.Line 57: <a> is not closed. Add </a>
-    18.Line 65: <h2> tag is not properly closed. Replace <h3> with </h2>
-Line 7 tag close
-relative link
+Forrest Jordan, Bianca Meurer-Zeman
 
+find_errors.html
+    line 1 missing <!DOCTYPE html> 
+    line 2 should have <HTML language="en">
+    line 4 change language to lang
+    line 7 add </head>  
+    ine 9 missing </h1> 
+    line 11  missing <p> 
+    Line 19 replace the first </li> for an opening tag <li>
+    line 24 change the closing tag to from <ul> to </ol> 
+    line 26 missing </p> 
+    line 28 change the image link name to jpg  
+    line 28 add the relative path of the folder where the images are 
+    line 30 delete closing tag </img> and replace for </a>
+    line 39 Add a closing tag </td> 
+    line 46 also add the image relative path
+    line 46 change img source to img src
+    line 48 add the opening tag <p>
+    line 48 add the closing tag </p>
+    line 48 add the tag <s>and </s> to make it a strikethrough
+    line 50 change to style="background-color:lightgray;"
+    line 54 add --> to close the comment
+    line 56 add the closing tag <a/>
+    line 58 after the underlined text sentence add the </em> first and then the </p>
+    line 58 to make it underlines add the tags <u> and </u> inbetween the <p></p> tags
+    line 62 since its a title for the list I would add <ul></ul> between "descriptive item text" to differentiate from the title
+    line 64 close the tag with </h2> instead of <h3> 
 
-File name: find_errors_2.html
-15 Errors:
-    1. Line 2: missing language declaration. Add <html lang="en">
-    2. Line 4: <head> tag not properly closed. Add </head>
-    3. Line 5: > missing on "<body" tag. Add >
-    4. Line 6: There should
-    5.
-    6.
-    7.
-    8.
-    9.
-    10.
-    11.
-    12.
-    13.
-    14.
-    15.
+find_errors_2.html
+    line 2 add <HTML language="en">
+    line 6 add </head>
+    line 7 close the opening tag in body
+    line 8 remove tag <html>
+    line 8 remove a tab space from <div> and add a class inside
+    line 9 add the closing tag </strong> after important
+    Line 9 add closing </p> tag
+    line 11 delete href and change for src
+    Line 11 add relative path of image
+    Line 12 add div closing tag
+    line 13 add opening tag <h2>
+    line 15 add <p> opening tag 
+    line 16 delete the carrot tags 
+    line 16 add <--! --=> to make it a comment
+    line 17 add closing body tag
+    line 18 add an l to html tag

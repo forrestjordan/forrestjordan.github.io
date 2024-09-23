@@ -24,8 +24,8 @@ File name: find_errors.html
     Line 57: <a> is not closed. Add </a>
     Line 58 to make it underlines add the tags <u> and </u> inbetween the <p></p> tags
     Line 58 For closing tags, add </em> first and then the </p>
-    Line 61: Element li not allowed as child of element dl, use dt instead
-    Line 62: Element li not allowed as child of element dl, use dt instead
+    Line 61: Element li not allowed as child of element dl, use dt instead for defintion term
+    Line 62: Element li not allowed as child of element dl, use dd instead for definition description
     Line 65: <h2> tag is not properly closed. Replace <h3> with </h2>
 
 

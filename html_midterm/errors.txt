@@ -1,0 +1,41 @@
+File name: find_errors.html
+25 Errors:
+    1. Line 1: Missing DOCTYPE declaration. Add `<!DOCTYPE html>` at the top.
+    2. Line 2: <head> tag should come after <html lang="en">
+    3. Line 4: Incorrect Syntax. Should be "lang", instead of "language"
+    4. Line 9: <h1> tag is not closed properly. Should have </h1>
+    5. Line 11: There is no opening to </p>. There should be a <p> befor "This is a paragraph."
+    6. Line 19: The opening for list should be <li>, and not be a closing </li>
+    7. Line 24: The closing tag for <ol> on line 13 should be </ol>, not </ul>
+    8. Line 26: There needs to be a closing tag for <p>. </p> after "This is another paragraph."
+    9. Line 28: Wrong image file name. Should be "image.jpg", not "Image.png"
+    10. Line 30: <a> tag is not closed with </a>
+    11.Line 39: <td> tag should be closed with </td>
+    12.Line 45: <table> tag is not closed. There shoudld be a </table> on line 45
+    13.Line 46: source should be src.
+    14.Line 48: There are no tags for the paragraph to make it a strikethrough text. There needs to be a <s></s> before and after the content.
+    15.Line 50: The "lightgray" needs to be replaced with css #############
+    16.Line 54: The comment is not closed, making the rest of the following conetent to turn into a comment. add -->
+    17.Line 57: <a> is not closed. Add </a>
+    18.Line 65: <h2> tag is not properly closed. Replace <h3> with </h2>
+Line 7 tag close
+relative link
+
+
+File name: find_errors_2.html
+15 Errors:
+    1. Line 2: missing language declaration. Add <html lang="en">
+    2. Line 4: <head> tag not properly closed. Add </head>
+    3. Line 5: > missing on "<body" tag. Add >
+    4. Line 6: There should
+    5.
+    6.
+    7.
+    8.
+    9.
+    10.
+    11.
+    12.
+    13.
+    14.
+    15.

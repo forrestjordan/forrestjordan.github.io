@@ -34,6 +34,7 @@ File name: find_errors_2.html
 15 Errors:
     Line 2: missing language declaration. Add <html lang="en">
     Line 4: <head> tag not properly closed. Add </head>
+    Line 4: <h1> should not be within <head></head>
     Line 5: > missing on "<body" tag. Add >
     Line 6: There should not be a <html> tag
     Line 7: Remove tab spacing before <div>

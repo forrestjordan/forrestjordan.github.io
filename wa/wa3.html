@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esoteric Programming Languages Encyclopedia</title>
+</head>
+<body>
+    <h1>Esoteric Programming Languages</h1>
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#common-features">Common Features</a></li>
+        <li><a href="#examples">Examples of Esoteric Languages</a></li>
+        <li><a href="#images">Images</a></li>
+        <li><a href="#see-also">See Also</a></li>
+    </ul>
+
+    <h2 id="introduction">Introduction</h2>
+    <p>An esoteric programming language (sometimes shortened to esolang) is a programming language designed to test the boundaries of computer programming language design, as a proof of concept, as software art, as a hacking interface to another language (particularly functional programming or procedural programming languages), or as a joke. The use of the word esoteric distinguishes them from languages that working developers use to write software. The creators of most esolangs do not intend them to be used for mainstream programming, although some esoteric features, such as visuospatial syntax, have inspired practical applications in the arts. Such languages are often popular among hackers and hobbyists.</p>
+    <p>Usability is rarely a goal for designers of esoteric programming languages; often their design leads to quite the opposite. Their usual aim is to remove or replace conventional language features while still maintaining a language that is Turing-complete, or even one for which the computational class is unknown.</p>
+
+    <h2 id="history">History</h2>
+    <p>The earliest, and still the canonical example of an esoteric programming language, is <strong>INTERCAL</strong>, designed in 1972 by Don Woods and James M. Lyon, who said that their intention was to create a programming language unlike any with which they were familiar. It parodied elements of established programming languages of the day such as Fortran, COBOL, and assembly language.</p>
+    <p>For many years, INTERCAL was represented only by paper copies of the INTERCAL manual. Its revival in 1990 as an implementation in C under Unix stimulated a wave of interest in the intentional design of esoteric computer languages.</p>
+    <p>In 1993, Wouter van Oortmerssen created <strong>FALSE</strong>, a small stack-oriented programming language with syntax designed to make the code inherently obfuscated, confusing, and unreadable. Its compiler is only 1024 bytes in size. This inspired Urban Müller to create an even smaller language, the now-infamous <strong>Brainfuck</strong>, which consists of only eight recognized characters. Along with Chris Pressey's <strong>Befunge</strong> (like FALSE, but with a two-dimensional instruction pointer), Brainfuck is now one of the best-supported esoteric programming languages, with canonical examples of minimal Turing tarpits and needlessly obfuscated language features.</p>
+
+    <h2 id="common-features">Common Features</h2>
+    <p>While esoteric programming languages differ in many ways, there are some common traits that characterize many languages, such as parody, minimalism, and the goal of making programming difficult. Many esoteric programming languages, such as Brainfuck and similar, use single characters as commands; however, it is not uncommon for languages to read line by line like conventional programming languages.</p>
+
+    <h3 id="unique-data-representations">Unique Data Representations</h3>
+    <p>Conventional imperative programming languages typically allow data to be stored in variables, but esoteric languages may utilize different methods of storing and accessing data. Languages like Brainfuck and Malbolge only permit data to be read through a single pointer, which must be moved to a location of interest before data is read. Others, like Befunge and Shakespeare, utilize one or more stacks to hold data, leading to a manner of execution akin to Reverse Polish notation. Finally, there are languages which explore alternative forms of number representation: the Brainfuck variant <strong>Boolfuck</strong> only permits operations on single bits, while Malbolge and the INTERCAL variant <strong>TriINTERCAL</strong> replace bits altogether with a base 3 ternary system.</p>
+
+    <h3 id="unique-instruction-representations">Unique Instruction Representations</h3>
+    <p>Esoteric languages also showcase unique ways of representing program instructions. Some languages, such as Befunge and <strong>Piet</strong>, represent programs in two or more dimensions, with program control moving around in multiple possible directions through the program. This differs from conventional languages, in which a program is a set of instructions usually encountered in sequence. Other languages modify instructions to appear in an unusual form, often one that can be read by humans with an alternate meaning to the underlying instructions. Shakespeare achieves this by making all programs resemble Shakespearian plays. <strong>Chef</strong> achieves the same by having all programs be recipes, and some have created programs that successfully function both as a program and as a recipe, demonstrating the ability of the language to produce this double meaning.</p>
+
+    <h3 id="difficulty-to-read-and-write">Difficulty to Read and Write</h3>
+    <p>Many esoteric programming languages are designed to produce code that is deeply obfuscated, making it difficult to read and write. The purpose of this may be to provide an interesting puzzle or challenge for program writers: <strong>Malbolge</strong>, for instance, was explicitly designed to be challenging, and so it has features like self-modifying code and highly counterintuitive operations. On the other hand, some esoteric languages become difficult to write due to their other design choices. Brainfuck is committed to the idea of a minimalist instruction set, so even though its instructions are straightforward in principle, the code that arises is difficult for a human to read. INTERCAL's difficulty arises as a result of the choice to avoid operations used in any other programming language, which stems from its origin as a parody of other languages.</p>
+
+    <h3 id="parody-and-spoof">Parody and Spoof</h3>
+    <p>One of the aims of esoteric programming languages is to parody or spoof existing languages and trends in the field of programming. For instance, the first esoteric language, INTERCAL, began as a spoof of languages used in the 1960s, such as APL, Fortran, and COBOL. INTERCAL's rules appear to be the inverse of rules in these other languages. However, the subject of parody is not always another established programming language. <strong>Shakespeare</strong> can be viewed as spoofing the structure of Shakespearean plays, while <strong>Ook!</strong> is a parody of Brainfuck, where Brainfuck's eight commands are replaced by various orangutan sounds like "Ook. Ook?".</p>
+
+    <h2 id="examples">Examples of Esoteric Languages</h2>
+    <p>Here are some notable esoteric programming languages:</p>
+    <ul>
+        <li><strong>Befunge</strong>: Allows the instruction pointer to roam in multiple dimensions through the code.</li>
+        <li><strong>Binary Lambda Calculus</strong>: Designed for dense code, featuring minimal means for complex tasks.</li>
+        <li><strong>Brainfuck</strong>: An extreme minimalist language with only eight distinct characters.</li>
+        <li><strong>Chicken</strong>: Utilizes the word "chicken" and its count as commands.</li>
+        <li><strong>Chef</strong>: Designed to resemble cooking recipes.</li>
+        <li><strong>FRACTRAN</strong>: Uses a list of fractions and an initial positive integer for computation.</li>
+        <li><strong>GolfScript</strong>: Created for code golf, focusing on minimizing code length.</li>
+        <li><strong>INTERCAL</strong>: A parody language that satirizes other programming languages.</li>
+        <li><strong>JSFuck</strong>: A JavaScript variant using only six characters.</li>
+        <li><strong>LOLCODE</strong>: Resembles the speech of lolcats.</li>
+        <li><strong>Malbolge</strong>: Designed to be the most difficult programming language.</li>
+        <li><strong>Piet</strong>: Programs are represented as bitmap images, resembling abstract art.</li>
+        <li><strong>Shakespeare</strong>: Designed to make programs look like Shakespearean plays.</li>
+        <li><strong>Unlambda</strong>: A minimalist functional programming language.</li>
+        <li><strong>Whitespace</strong>: Uses only whitespace characters, ignoring all others.</li>
+    </ul>
+
+    <h2 id="images">Images</h2>
+    <div class="image-container">
+        <img src="../img/befunge.png" alt="Befunge Image" width = auto height ="150px">
+        <img src="../img/brainfuck.jpg" alt="Brainfuck Image" width = auto height ="150px">
+        <img src="../img/chef.jpg" alt="Chef Image" width = auto height ="150px">
+        <img src="../img/intercal.png" alt="INTERCAL Image" width = auto height ="150px">
+        <img src="../img/lolcode.png" alt="LOLCODE Image" width = auto height ="150px">
+        <img src="../img/piet.jpg" alt="Piet Image" width = auto height ="150px">
+        <img src="../img/piet2.png" alt="Piet2 Image" width = auto height ="150px">
+    </div>
+
+    <h2 id="see-also">See Also</h2>
+    <ul>
+        <li><a href="https://biancamz.github.io/wa/wa3.html" target="_blank">Bianca's Encyclopedia Entry</a></li>
+    </ul>
+
+    <p><em>Source:</em> <a href="https://en.wikipedia.org/wiki/Esoteric_programming_language" target="_blank">Wikipedia - Esoteric Programming Language</a></p>
+</body>
+</html>

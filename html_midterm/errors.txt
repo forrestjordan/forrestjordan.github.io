@@ -41,7 +41,6 @@ File name: find_errors_2.html
     Line 8: Add closing </strong>
     Line 8: Add closing </p>
     Line 10: Replace href with src
-    Line 10: Add relative path for the image
     Line 10: Add alt name for image
     Line 11: Add  </div> closing tag
     Line 12: Add opening <h2> tag

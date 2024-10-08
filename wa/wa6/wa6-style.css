@@ -1,0 +1,136 @@
+/* Global style reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding in width and height calculations */
+}
+
+/* Main article container */
+article {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the main background image */
+.main-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('Tadej-Pogacar2.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Overlay div for the gradient behind the UCI logo */
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%; /* Adjust height to control the gradient area */
+    background: linear-gradient(to top, rgba(69, 75, 165, 0.7), transparent);
+    z-index: 1; /* Lower z-index to place gradient behind other elements */
+}
+
+/* Overlay div for the UCI Logo */
+.uci-logo-overlay {
+    position: absolute;
+    bottom: 1in;
+    right: 1in;
+    width: auto; /* Adjust width to match the size of the UCI Logo */
+    height: 100px; /* Adjust height to match the size of the UCI Logo */
+    z-index: 2; /* Higher z-index to place UCI logo above the gradient */
+}
+
+.uci-logo-overlay img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Left lines overlay */
+.left-lines-overlay {
+    position: absolute;
+    bottom: 1in; /* Align with the UCI Logo position */
+    left: 1in; /* 1-inch margin from the left */
+    display: flex;
+    flex-direction: column; /* Align the lines vertically */
+    align-items: center; /* Center lines horizontally */
+    z-index: 3; /* Highest z-index so lines are above everything */
+}
+
+/* Individual line styles */
+.line {
+    width: 5in;
+    height: 20px; /* Adjust height to make each line the correct size */
+    background-color: rgba(0, 0, 0, 0.5); /* Default line color with transparency */
+    margin: 0; /* Remove default margins */
+}
+
+/* Transparent colors for each line */
+.line:nth-child(1) {
+    background-color: rgba(0, 0, 255, 0.5); /* Blue with 50% transparency */
+}
+
+.line:nth-child(2) {
+    background-color: rgba(255, 0, 0, 0.5); /* Red with 50% transparency */
+}
+
+.line:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+}
+
+.line:nth-child(4) {
+    background-color: rgba(255, 255, 0, 0.5); /* Yellow with 50% transparency */
+}
+
+.line:nth-child(5) {
+    background-color: rgba(0, 255, 0, 0.5); /* Green with 50% transparency */
+}
+
+/* Container for text boxes next to the lines */
+.text-boxes-overlay {
+    position: absolute;
+    bottom: 1in; /* Align with the UCI Logo position */
+    left: 5in; /* Position to the right of the left lines (1in margin + line width + 10px spacing) */
+    display: flex;
+    align-items: center; /* Align text boxes vertically to match line height */
+    height: 100px; /* Match the total height of the five lines */
+    width: 400px; /* Total width for the text box container */
+    z-index: 4; /* Highest z-index so boxes are above everything */
+}
+
+/* Black box with text */
+.black-box {
+    background-color: rgba(0, 0, 0); /* Black with slight transparency */
+    color: white;
+    padding: 10px; /* Padding included in width */
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    height: 100%; /* Match the height of the text boxes overlay */
+    width: 50%; /* Set width to half of the parent container */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    border-bottom-left-radius: 45px; /* Adjust the radius to your preference */
+}
+
+/* White box with text */
+.white-box {
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    color: black;
+    padding: 10px; /* Padding included in width */
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    height: 100%; /* Match the height of the text boxes overlay */
+    width: 50%; /* Set width to half of the parent container */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}

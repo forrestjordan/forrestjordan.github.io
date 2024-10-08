@@ -30,7 +30,7 @@ article {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 15%; /* Reduced height to half */
+    height: 30%; /* Adjust height to control the gradient area */
     background: linear-gradient(to top, rgba(69, 75, 165, 0.7), transparent);
     z-index: 1; /* Lower z-index to place gradient behind other elements */
 }
@@ -38,10 +38,10 @@ article {
 /* Overlay div for the UCI Logo */
 .uci-logo-overlay {
     position: absolute;
-    bottom: 0.5in; /* Reduced distance from bottom */
-    right: 0.5in; /* Reduced distance from right */
-    width: auto;
-    height: 50px; /* Reduced height to half */
+    bottom: 1in;
+    right: 1in;
+    width: auto; /* Adjust width to match the size of the UCI Logo */
+    height: 100px; /* Adjust height to match the size of the UCI Logo */
     z-index: 2; /* Higher z-index to place UCI logo above the gradient */
 }
 
@@ -53,8 +53,8 @@ article {
 /* Left lines overlay */
 .left-lines-overlay {
     position: absolute;
-    bottom: 0.5in; /* Reduced distance from bottom */
-    left: 0.5in; /* Reduced distance from left */
+    bottom: 1in; /* Align with the UCI Logo position */
+    left: 1in; /* 1-inch margin from the left */
     display: flex;
     flex-direction: column; /* Align the lines vertically */
     align-items: center; /* Center lines horizontally */
@@ -63,8 +63,8 @@ article {
 
 /* Individual line styles */
 .line {
-    width: 2.5in; /* Reduced width to half */
-    height: 10px; /* Reduced height to half */
+    width: 5in;
+    height: 20px; /* Adjust height to make each line the correct size */
     background-color: rgba(0, 0, 0, 0.5); /* Default line color with transparency */
     margin: 0; /* Remove default margins */
 }
@@ -93,12 +93,12 @@ article {
 /* Container for text boxes next to the lines */
 .text-boxes-overlay {
     position: absolute;
-    bottom: 0.5in; /* Reduced distance from bottom */
-    left: 2.5in; /* Position to the right of the left lines (0.5in margin + line width + 10px spacing) */
+    bottom: 1in; /* Align with the UCI Logo position */
+    left: 5in; /* Position to the right of the left lines (1in margin + line width + 10px spacing) */
     display: flex;
     align-items: center; /* Align text boxes vertically to match line height */
-    height: 50px; /* Match the total height of the five lines */
-    width: 200px; /* Reduced width to half */
+    height: 100px; /* Match the total height of the five lines */
+    width: 400px; /* Total width for the text box container */
     z-index: 4; /* Highest z-index so boxes are above everything */
 }
 
@@ -106,8 +106,8 @@ article {
 .black-box {
     background-color: rgba(0, 0, 0); /* Black with slight transparency */
     color: white;
-    padding: 5px; /* Reduced padding to half */
-    font-size: 15px; /* Reduced font size to half */
+    padding: 10px; /* Padding included in width */
+    font-size: 30px;
     font-family: Arial, sans-serif;
     font-weight: bolder;
     text-align: center;
@@ -116,15 +116,15 @@ article {
     display: flex;
     align-items: center; /* Center text vertically */
     justify-content: center; /* Center text horizontally */
-    border-bottom-left-radius: 22.5px; /* Reduced radius to half */
+    border-bottom-left-radius: 45px; /* Adjust the radius to your preference */
 }
 
 /* White box with text */
 .white-box {
     background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
     color: black;
-    padding: 5px; /* Reduced padding to half */
-    font-size: 15px; /* Reduced font size to half */
+    padding: 10px; /* Padding included in width */
+    font-size: 30px;
     font-family: Arial, sans-serif;
     font-weight: bolder;
     text-align: center;

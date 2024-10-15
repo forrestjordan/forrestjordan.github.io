@@ -44,6 +44,8 @@ main {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 980px;
+  transform: scale(0.9);
+  transform-origin: top; 
 }
 
 article {

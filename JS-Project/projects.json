@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Photography24",
+      "description": "The annual compilation.",
+      "technologies": ["Photography"],
+      "image": "images/cover.jpg",
+      "link": "project1.html"
+    },
+    {
+      "title": "Convertible",
+      "description": "Coffee Table and Chair.",
+      "technologies": ["Product Design", "Engineering"],
+      "image": "images/convertible.JPG",
+      "link": "project2.html"
+    },
+    {
+      "title": "Make it to the weekend.",
+      "description": "The balance between work and life.",
+      "technologies": ["Art", "Videography"],
+      "image": "images/weekend.jpg",
+      "link": "project3.html"
+    }
+  ]
+  
